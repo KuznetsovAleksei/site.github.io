@@ -1,0 +1,160 @@
+.container{
+margin-left: 50px;
+margin-right: 50px;
+}
+.logo{
+    margin-left: 70px;
+    padding-top: 50px;
+    padding-bottom:20px ;
+}
+html{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.header__inner{
+    background-color: #18181b;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu__list{
+    padding-bottom: 10px;
+    font-size: larger;
+    color: #dbc49b;
+    display: flex;
+    align-items:center;
+    gap: 0 202px;
+}
+.menu__list1{
+    text-wrap: nowrap;
+    display: flex;
+    font-size: small;
+    color: #c7c7c7;
+    gap: 0 58px;
+}
+
+.menu__item1{
+   margin-right: 90px;
+}
+.menu__item2{
+    color: #c7c7c7;
+    font-size: large;
+}
+.but1{
+    padding-bottom: 20px;
+    font-size: large;
+    color: #dbc49b;
+    border: 2.5px solid #18181b;
+    background-color: #18181b;
+}
+.menu__list2{
+    padding-bottom: 20px;
+    text-wrap: nowrap;
+    background-color: #18181b;
+    color: #dbc49b;
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+    margin-right: 100px;
+}
+.menulist3{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.tab-content {
+    background-color: #18181b;
+    display: none;
+}
+.fon{
+    background-color: #18181b;
+}
+.con{
+    background-color: #18181b;
+    line-height: 23px;
+    padding-bottom: 50px;
+    margin-left: 250px;
+    background-repeat: no-repeat;
+    background-image: url(images/remont-dorog.jpg);
+}
+.ops{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
+    color:black;
+}
+.ops1{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
+    color:black;
+}
+.ops2{
+    font-weight: bold;
+    margin-left: 305px;
+    font-size: large;
+    text-transform: uppercase;
+    color:brown;
+}
+a{
+    text-decoration: none;
+    color: #dbc49b;
+}
+
+a.clicked{
+    color: red;
+}
+.but1.clicked1{
+    color: red;
+}
+.price{
+    background-color: #18181b;
+    font-size: xx-large;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.pric{
+    margin-left: 650px;
+    color: #dbc49b;
+    padding-bottom: 20px;
+}
+.pric1{
+    margin-left: 500px;
+    color: #dbc49b;
+    padding-bottom: 20px;
+}
+.wr{
+    text-wrap: nowrap;
+}
+.tex{
+    color: #dbc49b;
+}
+table {
+    text-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 255px;
+    width:  1000px;
+    border-top: 7px solid gold;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid #dddddd;
+  }
+  
+  td {
+    text-align: left;
+      padding: 10px;
+      border: 3px solid gold;
+  }
+   th {
+    text-align: center;
+    padding: 10px;
+      border: 3px solid gold;
+   }
+  .cont{
+    margin-left: 150px;
+  }
