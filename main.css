@@ -10,9 +10,7 @@ margin-right: 50px;
 html{
     box-sizing: border-box;
 }
-ul{
-    list-style: none;
-}
+
 .header__inner{
     background-color: #18181b;
     display: flex;
@@ -26,6 +24,7 @@ ul{
     display: flex;
     align-items:center;
     gap: 0 202px;
+    list-style: none;
 }
 .menu__list1{
     text-wrap: nowrap;
@@ -33,6 +32,7 @@ ul{
     font-size: small;
     color: #c7c7c7;
     gap: 0 58px;
+    list-style: none;
 }
 
 .menu__item1{
@@ -57,7 +57,15 @@ ul{
     display: flex;
     align-items: center;
     gap: 0 60px;
-    margin-right: 100px;
+    margin-right: 200px;
+    list-style: none;
+}
+.col{
+    margin-top:  30px;
+    color: #dbc49b;
+}
+.col1{
+    color: #dbc49b;
 }
 .menulist3{
     display: flex;
