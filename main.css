@@ -44,8 +44,17 @@ html{
 }
 .but1{
     padding-bottom: 20px;
-    font-size: large;
+    margin-left: 114px;
+    font-size: medium;
     color: #dbc49b;
+    border: 2.5px solid #18181b;
+    background-color: #18181b;
+}
+.but2{
+    margin-left: 30px;
+    color: #dbc49b;
+    font-size: 30px;
+    padding: 20px;
     border: 2.5px solid #18181b;
     background-color: #18181b;
 }
@@ -73,6 +82,10 @@ html{
     gap: 0 20px;
 }
 .tab-content {
+    background-color: #18181b;
+    display: none;
+}
+.tab-content1 {
     background-color: #18181b;
     display: none;
 }
@@ -119,6 +132,9 @@ a.clicked{
 .but1.clicked1{
     color: red;
 }
+.but2.clicked2{
+    color:red;
+}
 .price{
     background-color: #18181b;
     font-size: xx-large;
@@ -133,13 +149,21 @@ a.clicked{
 .pric1{
     margin-left: 500px;
     color: #dbc49b;
-    padding-bottom: 20px;
+}
+.pric10{
+    margin-left: 300px;
+    color: #dbc49b;
 }
 .wr{
     text-wrap: nowrap;
 }
 .tex{
     color: #dbc49b;
+}
+.tex1{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-wrap: nowrap;
 }
 table {
     text-wrap: wrap;
@@ -154,8 +178,8 @@ table {
   }
   
   td {
-    text-align: left;
-      padding: 10px;
+    text-align: center;
+      padding: 30px;
       border: 3px solid gold;
   }
    th {
@@ -166,3 +190,35 @@ table {
   .cont{
     margin-left: 150px;
   }
+  .comp{
+    margin-left: 650px;
+    color: #dbc49b;
+  }
+.q{
+    margin-left: 30px;
+    color: #dbc49b;
+    margin-bottom: 20px;
+}
+.col12{
+    color: #dbc49b;
+    margin-left: 30px;
+}
+.st{
+    text-indent: 2em;
+    line-height: 1.5;
+}
+.st1{
+    margin-left: 200px;
+}
+.call-button {
+    display: inline-block;
+    padding: 15px 30px;
+    color:#dbc49b;
+    background-color:#18181b; /* Красный цвет фона */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание с ссылки */
+    font-size: larger;
+}
