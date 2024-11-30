@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('DOMContentLoaded', () => {
     const tabs1 = document.querySelectorAll('.menu__item4');
     const contents1 = document.querySelectorAll('.tab-content1');
-  
     tabs1.forEach((tab, index) => {
       tab.addEventListener('click', () => {
         tabs1.forEach(t => t.classList.remove('active'));
