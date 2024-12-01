@@ -68,8 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
   document.getElementById('per').onclick = function () {
-    window.location.href = 'https://t.me/Fuckinpowerfull';
+    window.location.href = 'https://t.me/Homelesss_God';
 };
 document.getElementById('per1').onclick = function () {
-    window.location.href = 'https://t.me/Fuckinpowerfull';
+    window.location.href = 'https://t.me/Homelesss_God';
 };
