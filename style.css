@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #ffccd5; /* Нежно-розовый фон */
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#text {
+    font-size: 30px;
+    color: #ff1493;
+    font-family: 'Arial', sans-serif;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    #text {
+        font-size: 18px; /* Уменьшаем размер шрифта для мобильных устройств */
+    }
+}
+#text.visible {
+    opacity: 1;
+}
+
+.hidden {
+    opacity: 0;
+}
